@@ -121,7 +121,7 @@ clear
 
 # Checking the required number of variables
 
-[ ! -z $1 ] && printf "\nFilename is present "|| (printf "missing variable, sucker, a namefile is expected " && exit 1)
+[ ! -z "$1" ] && printf "\nFilename is present " || (printf "missing variable, sucker, a namefile is expected " && exit 1)
 check_i
 
 #checking if correct filetype
